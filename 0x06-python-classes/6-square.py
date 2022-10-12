@@ -5,11 +5,13 @@ Created on Sun October 10 00:34:54 2022
 @author: Fiona Wekulo
 """
 
+
 class Square:
     """Class Square that has attributes. Instantiation with size
     Attributes:
         size (int): The size of the square
     """
+
     def __init__(self, size=0, position=(0, 0)):
         """The __init__ method for Square class
         Args:
@@ -18,6 +20,7 @@ class Square:
         """
         self.size = size
         self.position = position
+
     @property
     def size(self):
         """Call the function to checking property
@@ -25,6 +28,7 @@ class Square:
             The size of the square
         """
         return self.__size
+
     @property
     def position(self):
         """Call the function to checking property
@@ -32,6 +36,7 @@ class Square:
             The tuple position
         """
         return self.__position
+
     @size.setter
     def size(self, value):
         """check errors and setter for size attribute
@@ -47,6 +52,7 @@ class Square:
             raise ValueError("size must be >= 0")
         else:
             self.__size = value
+
     @position.setter
     def position(self, value):
         """check errors and setter for size attribute
@@ -63,12 +69,14 @@ class Square:
         elif type(value[1]) is not int or value[1] < 0:
             raise TypeError("position must be a tuple of 2 positive integers")
         self.__position = value
-   def area(self):
+
+    def area(self):
         """Calculates the area of the square
         Returns:
             The area of the square
         """
         return self.__size ** 2
+
     def my_print(self):
         """Print a square using # character
         """

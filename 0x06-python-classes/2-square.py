@@ -4,6 +4,8 @@
 Created on Tue October 12 14:21:54 2022
 @author: Fiona Wekulo
 """
+
+
 class Square:
     """Class Square that has attributes. Instantiation with size
     Attributes:

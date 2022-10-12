@@ -4,6 +4,8 @@
 Created on Tue October 10 01:21:54 2022
 @author: Fiona Wekulo
 """
+
+
 class Square:
     """Class Square that has attributes. Instantiation with size
     Attributes:
@@ -23,6 +25,7 @@ class Square:
             raise ValueError("size must be >= 0")
         else:
             self.__size = size
+
     def area(self):
         """Calculates the area of the square
         Returns:

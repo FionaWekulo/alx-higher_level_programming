@@ -4,17 +4,21 @@
 Created on Tue October 10 00:21:54 2022
 @author: Fiona Wekulo
 """
+
+
 class Square:
     """Class Square that has attributes. Instantiation with size
     Attributes:
         size (int): The size of the square
     """
+
     def __init__(self, size=0):
         """The __init__ method for Square class
         Args:
             size: (:obj: 'int', optional): A private instance size
         """
         self.__size = size
+
     @property
     def size(self):
         """Call the function to checking property
@@ -22,6 +26,7 @@ class Square:
             The size of the square
         """
         return self.__size
+
     @size.setter
     def size(self, value):
         """check errors and setter for size attribute
@@ -37,6 +42,7 @@ class Square:
             raise ValueError("size must be >= 0")
         else:
             self.__size = value
+
     def area(self):
         """Calculates the area of the square
         Returns:
