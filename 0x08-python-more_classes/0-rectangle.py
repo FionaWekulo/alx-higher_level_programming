@@ -11,7 +11,7 @@ Created on Mon 17 2022
 
 
 class Rectangle:
-    
+
     """Empty class Rectangle that defines a rectangle figure
 
 
@@ -20,7 +20,4 @@ class Rectangle:
         empty
 
     """
-  
-
-    
     pass

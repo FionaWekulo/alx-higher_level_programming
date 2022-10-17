@@ -2,11 +2,8 @@
 # -*- coding: utf-8 -*-
 
 """
-
 Created on Mon 17 2022
-
 @author: Fiona Wekulo
-
 """
 
 
@@ -14,23 +11,16 @@ class Rectangle:
 
     """class Rectangle that defines a rectangle figure
 
-
-
     Attributes:
 
         empty
 
     """
 
-
-
     def __init__(self, width=0, height=0):
 
         """
-
         Init method for Rectangle
-
-
 
         Attributes:
 
@@ -48,17 +38,10 @@ class Rectangle:
 
         self.__width = width
 
-
-
     @property
-
     def height(self):
-
         """
-
         Property height to retrieve it
-
-
 
         Returns:
 
@@ -68,23 +51,15 @@ class Rectangle:
 
         return self.__height
 
-
-
     @height.setter
-
     def height(self, value):
-
         """
 
         Setter height of the rectangle
 
-
-
         Attributes:
 
             height (int): The height of the rectangle
-
-
 
         Raises:
 
@@ -106,17 +81,11 @@ class Rectangle:
 
             self.__height = value
 
-
-
     @property
-
     def width(self):
-
         """
 
         Property width to retrieve it
-
-
 
         Returns:
 
@@ -126,23 +95,15 @@ class Rectangle:
 
         return self.__width
 
-
-
     @width.setter
-
     def width(self, value):
-
         """
 
         Setter width of the rectangle
 
-
-
         Attributes:
 
             width (int): The width of the rectangle
-
-
 
         Raises:
 
@@ -164,15 +125,10 @@ class Rectangle:
 
             self.__width = value
 
-
-
     def area(self):
-
         """
 
         Calculate the area of the rectangle
-
-
 
         Returns:
 
@@ -182,15 +138,10 @@ class Rectangle:
 
         return self.__width * self.__height
 
-
-
     def perimeter(self):
-
         """
 
         Calculate the perimeter of the rectangle
-
-
 
         Returns:
 
